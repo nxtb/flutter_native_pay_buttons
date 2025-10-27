@@ -27,6 +27,8 @@ apply plugin: 'kotlin-android'
 android {
     compileSdkVersion 34
 
+    namespace "asia.ivity.native_pay_buttons"
+
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
